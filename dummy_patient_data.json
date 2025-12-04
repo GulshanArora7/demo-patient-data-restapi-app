@@ -40,8 +40,8 @@
           "dateOfBirth": "1985-03-15"
         },
         "coverage": {
-          "effectiveDate": "2024-01-01",
-          "expirationDate": "2024-12-31",
+          "effectiveDate": "2025-01-01",
+          "expirationDate": "2027-12-31",
           "deductible": {
             "individual": 1500,
             "family": 3000,
@@ -143,7 +143,7 @@
         "surgeries": [
           {
             "procedure": "Appendectomy",
-            "date": "1998-07-15",
+            "date": "2018-07-15",
             "surgeon": "Dr. James Wilson",
             "facility": "City General Hospital",
             "status": "Recovered"
@@ -191,8 +191,8 @@
       "appointments": {
         "upcoming": [
           {
-            "appointmentId": "APT-2024-001",
-            "date": "2024-12-20",
+            "appointmentId": "APT-2025-001",
+            "date": "2025-12-20",
             "time": "10:00 AM",
             "provider": "Dr. Emily Chen",
             "specialty": "Primary Care",
@@ -202,8 +202,8 @@
             "estimatedCopay": 0
           },
           {
-            "appointmentId": "APT-2024-002",
-            "date": "2025-01-15",
+            "appointmentId": "APT-2026-001",
+            "date": "2026-03-15",
             "time": "2:30 PM",
             "provider": "Dr. Robert Martinez",
             "specialty": "Cardiology",
@@ -215,7 +215,7 @@
         ],
         "recent": [
           {
-            "appointmentId": "APT-2024-003",
+            "appointmentId": "APT-2024-008",
             "date": "2024-11-15",
             "time": "9:00 AM",
             "provider": "Dr. Emily Chen",
@@ -228,7 +228,7 @@
             "notes": "Patient doing well, blood sugar levels stable"
           },
           {
-            "appointmentId": "APT-2024-004",
+            "appointmentId": "APT-2024-009",
             "date": "2024-10-20",
             "time": "11:00 AM",
             "provider": "Dr. Jennifer Kim",
@@ -243,7 +243,7 @@
         ],
         "past": [
           {
-            "appointmentId": "APT-2024-005",
+            "appointmentId": "APT-2024-010",
             "date": "2024-09-10",
             "time": "3:00 PM",
             "provider": "Dr. Robert Martinez",
@@ -256,7 +256,7 @@
             "notes": "Patient completed stress test without complications"
           },
           {
-            "appointmentId": "APT-2024-006",
+            "appointmentId": "APT-2024-011",
             "date": "2024-08-05",
             "time": "10:30 AM",
             "provider": "Dr. Emily Chen",
@@ -531,8 +531,8 @@
           "dateOfBirth": "1978-11-22"
         },
         "coverage": {
-          "effectiveDate": "2024-01-01",
-          "expirationDate": "2024-12-31",
+          "effectiveDate": "2025-01-01",
+          "expirationDate": "2027-12-31",
           "deductible": {
             "individual": 2000,
             "family": 4000,
@@ -540,7 +540,7 @@
           },
           "outOfPocketMaximum": {
             "individual": 6000,
-            "family": "12000",
+            "family": 12000,
             "remaining": 4500
           },
           "coinsurance": "25%",
@@ -626,7 +626,7 @@
           },
           {
             "procedure": "Tonsillectomy",
-            "date": "1985-03-10",
+            "date": "2012-03-10",
             "surgeon": "Dr. John Smith",
             "facility": "City Hospital",
             "status": "Recovered"
@@ -674,8 +674,8 @@
       "appointments": {
         "upcoming": [
           {
-            "appointmentId": "APT-2024-007",
-            "date": "2024-12-18",
+            "appointmentId": "APT-2026-002",
+            "date": "2026-02-14",
             "time": "11:00 AM",
             "provider": "Dr. Lisa Anderson",
             "specialty": "Orthopedics",
@@ -687,8 +687,8 @@
         ],
         "recent": [
           {
-            "appointmentId": "APT-2024-008",
-            "date": "2024-11-20",
+            "appointmentId": "APT-2024-005",
+            "date": "2024-02-20",
             "time": "2:00 PM",
             "provider": "Dr. David Thompson",
             "specialty": "Primary Care",
@@ -700,7 +700,7 @@
             "notes": "Patient reports improvement with current medication regimen"
           },
           {
-            "appointmentId": "APT-2024-009",
+            "appointmentId": "APT-2024-006",
             "date": "2024-10-15",
             "time": "10:00 AM",
             "provider": "Dr. Lisa Anderson",
@@ -715,7 +715,7 @@
         ],
         "past": [
           {
-            "appointmentId": "APT-2024-010",
+            "appointmentId": "APT-2024-007",
             "date": "2024-09-05",
             "time": "3:30 PM",
             "provider": "Dr. David Thompson",
@@ -888,8 +888,8 @@
           "dateOfBirth": "1992-07-08"
         },
         "coverage": {
-          "effectiveDate": "2024-01-01",
-          "expirationDate": "2024-12-31",
+          "effectiveDate": "2025-01-01",
+          "expirationDate": "2027-12-31",
           "deductible": {
             "individual": 1000,
             "family": 2000,
@@ -1048,8 +1048,8 @@
       "appointments": {
         "upcoming": [
           {
-            "appointmentId": "APT-2024-011",
-            "date": "2024-12-22",
+            "appointmentId": "APT-2026-003",
+            "date": "2026-04-22",
             "time": "1:00 PM",
             "provider": "Dr. Sarah Mitchell",
             "specialty": "Gynecology",
