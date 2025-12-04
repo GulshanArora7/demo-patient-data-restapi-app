@@ -1,0 +1,1286 @@
+{
+  "patients": [
+    {
+      "patientId": "PAT-001",
+      "personalInformation": {
+        "firstName": "Sarah",
+        "lastName": "Johnson",
+        "dateOfBirth": "1985-03-15",
+        "age": 39,
+        "gender": "Female",
+        "ssn": "***-**-1234",
+        "phone": "+1-555-0123",
+        "email": "sarah.johnson@email.com",
+        "address": {
+          "street": "123 Oak Street",
+          "city": "San Francisco",
+          "state": "CA",
+          "zipCode": "94102",
+          "country": "USA"
+        },
+        "emergencyContact": {
+          "name": "Michael Johnson",
+          "relationship": "Spouse",
+          "phone": "+1-555-0124"
+        },
+        "bloodType": "O+",
+        "allergies": ["Penicillin", "Shellfish", "Latex"],
+        "preferredLanguage": "English"
+      },
+      "insurance": {
+        "insuranceId": "INS-001",
+        "insuranceProvider": "Blue Cross Blue Shield",
+        "planName": "Blue Shield Gold PPO",
+        "policyNumber": "BCBS-789456123",
+        "groupNumber": "GRP-456789",
+        "memberId": "MEM-123456789",
+        "policyHolder": {
+          "name": "Sarah Johnson",
+          "relationship": "Self",
+          "dateOfBirth": "1985-03-15"
+        },
+        "coverage": {
+          "effectiveDate": "2024-01-01",
+          "expirationDate": "2024-12-31",
+          "deductible": {
+            "individual": 1500,
+            "family": 3000,
+            "remaining": 450
+          },
+          "outOfPocketMaximum": {
+            "individual": 5000,
+            "family": 10000,
+            "remaining": 3200
+          },
+          "coinsurance": "20%",
+          "copay": {
+            "primaryCare": 25,
+            "specialist": 50,
+            "urgentCare": 75,
+            "emergencyRoom": 250,
+            "preventiveCare": 0
+          },
+          "coveredServices": [
+            "Preventive Care",
+            "Primary Care",
+            "Specialist Visits",
+            "Emergency Services",
+            "Hospitalization",
+            "Laboratory Tests",
+            "Radiology",
+            "Prescription Drugs",
+            "Mental Health",
+            "Physical Therapy"
+          ],
+          "networkStatus": "In-Network"
+        }
+      },
+      "careProviders": [
+        {
+          "providerId": "DOC-001",
+          "name": "Dr. Emily Chen",
+          "specialty": "Primary Care Physician",
+          "npi": "1234567890",
+          "phone": "+1-555-1001",
+          "email": "e.chen@healthcare.com",
+          "address": {
+            "street": "456 Medical Plaza",
+            "city": "San Francisco",
+            "state": "CA",
+            "zipCode": "94105"
+          },
+          "isPrimary": true,
+          "startDate": "2020-01-15"
+        },
+        {
+          "providerId": "DOC-002",
+          "name": "Dr. Robert Martinez",
+          "specialty": "Cardiologist",
+          "npi": "1234567891",
+          "phone": "+1-555-1002",
+          "email": "r.martinez@healthcare.com",
+          "address": {
+            "street": "789 Heart Center",
+            "city": "San Francisco",
+            "state": "CA",
+            "zipCode": "94106"
+          },
+          "isPrimary": false,
+          "startDate": "2022-06-10"
+        },
+        {
+          "providerId": "DOC-003",
+          "name": "Dr. Jennifer Kim",
+          "specialty": "Dermatologist",
+          "npi": "1234567892",
+          "phone": "+1-555-1003",
+          "email": "j.kim@healthcare.com",
+          "address": {
+            "street": "321 Skin Care Center",
+            "city": "San Francisco",
+            "state": "CA",
+            "zipCode": "94107"
+          },
+          "isPrimary": false,
+          "startDate": "2023-03-20"
+        }
+      ],
+      "medicalHistory": {
+        "chronicConditions": [
+          {
+            "condition": "Hypertension",
+            "diagnosedDate": "2020-05-10",
+            "status": "Controlled",
+            "severity": "Mild"
+          },
+          {
+            "condition": "Type 2 Diabetes",
+            "diagnosedDate": "2021-08-22",
+            "status": "Well Managed",
+            "severity": "Moderate"
+          }
+        ],
+        "surgeries": [
+          {
+            "procedure": "Appendectomy",
+            "date": "1998-07-15",
+            "surgeon": "Dr. James Wilson",
+            "facility": "City General Hospital",
+            "status": "Recovered"
+          }
+        ],
+        "familyHistory": {
+          "diabetes": "Maternal grandmother",
+          "heartDisease": "Paternal grandfather",
+          "hypertension": "Both parents",
+          "cancer": "Maternal aunt (breast cancer)"
+        },
+        "socialHistory": {
+          "smoking": "Never",
+          "alcohol": "Occasional (1-2 drinks/week)",
+          "exercise": "Regular (3-4 times/week)",
+          "diet": "Balanced"
+        },
+        "medications": [
+          {
+            "name": "Lisinopril",
+            "dosage": "10mg",
+            "frequency": "Once daily",
+            "prescribedBy": "Dr. Emily Chen",
+            "startDate": "2020-05-15",
+            "purpose": "Hypertension"
+          },
+          {
+            "name": "Metformin",
+            "dosage": "500mg",
+            "frequency": "Twice daily",
+            "prescribedBy": "Dr. Emily Chen",
+            "startDate": "2021-09-01",
+            "purpose": "Type 2 Diabetes"
+          },
+          {
+            "name": "Atorvastatin",
+            "dosage": "20mg",
+            "frequency": "Once daily",
+            "prescribedBy": "Dr. Robert Martinez",
+            "startDate": "2022-07-01",
+            "purpose": "Cholesterol management"
+          }
+        ]
+      },
+      "appointments": {
+        "upcoming": [
+          {
+            "appointmentId": "APT-2024-001",
+            "date": "2024-12-20",
+            "time": "10:00 AM",
+            "provider": "Dr. Emily Chen",
+            "specialty": "Primary Care",
+            "type": "Annual Physical",
+            "location": "456 Medical Plaza, San Francisco, CA",
+            "status": "Scheduled",
+            "estimatedCopay": 0
+          },
+          {
+            "appointmentId": "APT-2024-002",
+            "date": "2025-01-15",
+            "time": "2:30 PM",
+            "provider": "Dr. Robert Martinez",
+            "specialty": "Cardiology",
+            "type": "Follow-up",
+            "location": "789 Heart Center, San Francisco, CA",
+            "status": "Scheduled",
+            "estimatedCopay": 50
+          }
+        ],
+        "recent": [
+          {
+            "appointmentId": "APT-2024-003",
+            "date": "2024-11-15",
+            "time": "9:00 AM",
+            "provider": "Dr. Emily Chen",
+            "specialty": "Primary Care",
+            "type": "Follow-up",
+            "location": "456 Medical Plaza, San Francisco, CA",
+            "status": "Completed",
+            "copay": 25,
+            "diagnosis": "Routine check-up, diabetes management",
+            "notes": "Patient doing well, blood sugar levels stable"
+          },
+          {
+            "appointmentId": "APT-2024-004",
+            "date": "2024-10-20",
+            "time": "11:00 AM",
+            "provider": "Dr. Jennifer Kim",
+            "specialty": "Dermatology",
+            "type": "Annual Skin Check",
+            "location": "321 Skin Care Center, San Francisco, CA",
+            "status": "Completed",
+            "copay": 50,
+            "diagnosis": "Benign mole, no concerns",
+            "notes": "All moles appear normal, continue annual monitoring"
+          }
+        ],
+        "past": [
+          {
+            "appointmentId": "APT-2024-005",
+            "date": "2024-09-10",
+            "time": "3:00 PM",
+            "provider": "Dr. Robert Martinez",
+            "specialty": "Cardiology",
+            "type": "Stress Test",
+            "location": "789 Heart Center, San Francisco, CA",
+            "status": "Completed",
+            "copay": 50,
+            "diagnosis": "Normal stress test results",
+            "notes": "Patient completed stress test without complications"
+          },
+          {
+            "appointmentId": "APT-2024-006",
+            "date": "2024-08-05",
+            "time": "10:30 AM",
+            "provider": "Dr. Emily Chen",
+            "specialty": "Primary Care",
+            "type": "Sick Visit",
+            "location": "456 Medical Plaza, San Francisco, CA",
+            "status": "Completed",
+            "copay": 25,
+            "diagnosis": "Upper respiratory infection",
+            "notes": "Prescribed antibiotics, resolved within 7 days"
+          }
+        ]
+      },
+      "testResults": [
+        {
+          "testId": "TEST-2024-001",
+          "testType": "Laboratory",
+          "testName": "Complete Blood Count (CBC)",
+          "orderedBy": "Dr. Emily Chen",
+          "orderDate": "2024-11-15",
+          "testDate": "2024-11-15",
+          "resultsDate": "2024-11-16",
+          "status": "Completed",
+          "results": {
+            "whiteBloodCells": {
+              "value": 6.5,
+              "unit": "K/μL",
+              "referenceRange": "4.0-11.0",
+              "status": "Normal"
+            },
+            "redBloodCells": {
+              "value": 4.2,
+              "unit": "M/μL",
+              "referenceRange": "3.8-5.1",
+              "status": "Normal"
+            },
+            "hemoglobin": {
+              "value": 13.5,
+              "unit": "g/dL",
+              "referenceRange": "12.0-15.5",
+              "status": "Normal"
+            },
+            "hematocrit": {
+              "value": 40.2,
+              "unit": "%",
+              "referenceRange": "36.0-46.0",
+              "status": "Normal"
+            },
+            "platelets": {
+              "value": 250,
+              "unit": "K/μL",
+              "referenceRange": "150-450",
+              "status": "Normal"
+            }
+          },
+          "copay": 0,
+          "facility": "LabCorp - San Francisco"
+        },
+        {
+          "testId": "TEST-2024-002",
+          "testType": "Laboratory",
+          "testName": "Hemoglobin A1C",
+          "orderedBy": "Dr. Emily Chen",
+          "orderDate": "2024-11-15",
+          "testDate": "2024-11-15",
+          "resultsDate": "2024-11-16",
+          "status": "Completed",
+          "results": {
+            "hba1c": {
+              "value": 6.8,
+              "unit": "%",
+              "referenceRange": "<5.7",
+              "status": "Elevated",
+              "interpretation": "Good control for diabetic patient"
+            }
+          },
+          "copay": 0,
+          "facility": "LabCorp - San Francisco"
+        },
+        {
+          "testId": "TEST-2024-003",
+          "testType": "Laboratory",
+          "testName": "Lipid Panel",
+          "orderedBy": "Dr. Robert Martinez",
+          "orderDate": "2024-09-10",
+          "testDate": "2024-09-10",
+          "resultsDate": "2024-09-11",
+          "status": "Completed",
+          "results": {
+            "totalCholesterol": {
+              "value": 185,
+              "unit": "mg/dL",
+              "referenceRange": "<200",
+              "status": "Normal"
+            },
+            "ldl": {
+              "value": 110,
+              "unit": "mg/dL",
+              "referenceRange": "<100",
+              "status": "Borderline High"
+            },
+            "hdl": {
+              "value": 55,
+              "unit": "mg/dL",
+              "referenceRange": ">40",
+              "status": "Normal"
+            },
+            "triglycerides": {
+              "value": 120,
+              "unit": "mg/dL",
+              "referenceRange": "<150",
+              "status": "Normal"
+            }
+          },
+          "copay": 0,
+          "facility": "LabCorp - San Francisco"
+        },
+        {
+          "testId": "TEST-2024-004",
+          "testType": "Radiology",
+          "testName": "Chest X-Ray",
+          "orderedBy": "Dr. Emily Chen",
+          "orderDate": "2024-08-05",
+          "testDate": "2024-08-05",
+          "resultsDate": "2024-08-06",
+          "status": "Completed",
+          "results": {
+            "findings": "Clear lungs, no acute cardiopulmonary process",
+            "impression": "Normal chest X-ray",
+            "radiologist": "Dr. Patricia Lee"
+          },
+          "copay": 50,
+          "facility": "Radiology Center - San Francisco"
+        },
+        {
+          "testId": "TEST-2024-005",
+          "testType": "Radiology",
+          "testName": "Echocardiogram",
+          "orderedBy": "Dr. Robert Martinez",
+          "orderDate": "2024-09-10",
+          "testDate": "2024-09-12",
+          "resultsDate": "2024-09-13",
+          "status": "Completed",
+          "results": {
+            "ejectionFraction": {
+              "value": 60,
+              "unit": "%",
+              "referenceRange": "55-70",
+              "status": "Normal"
+            },
+            "findings": "Normal left ventricular size and function, no valvular abnormalities",
+            "impression": "Normal echocardiogram",
+            "cardiologist": "Dr. Robert Martinez"
+          },
+          "copay": 50,
+          "facility": "789 Heart Center, San Francisco, CA"
+        },
+        {
+          "testId": "TEST-2024-006",
+          "testType": "Radiology",
+          "testName": "MRI - Brain",
+          "orderedBy": "Dr. Emily Chen",
+          "orderDate": "2024-07-20",
+          "testDate": "2024-07-22",
+          "resultsDate": "2024-07-23",
+          "status": "Completed",
+          "results": {
+            "findings": "No acute intracranial abnormality, normal brain parenchyma",
+            "impression": "Normal brain MRI",
+            "radiologist": "Dr. Patricia Lee"
+          },
+          "copay": 100,
+          "facility": "Radiology Center - San Francisco"
+        },
+        {
+          "testId": "TEST-2024-007",
+          "testType": "Laboratory",
+          "testName": "Urinalysis",
+          "orderedBy": "Dr. Emily Chen",
+          "orderDate": "2024-11-15",
+          "testDate": "2024-11-15",
+          "resultsDate": "2024-11-16",
+          "status": "Completed",
+          "results": {
+            "appearance": "Clear",
+            "color": "Yellow",
+            "ph": {
+              "value": 6.5,
+              "referenceRange": "5.0-8.0",
+              "status": "Normal"
+            },
+            "protein": "Negative",
+            "glucose": "Negative",
+            "whiteBloodCells": "0-2",
+            "redBloodCells": "0-2",
+            "bacteria": "None"
+          },
+          "copay": 0,
+          "facility": "LabCorp - San Francisco"
+        }
+      ],
+      "procedures": [
+        {
+          "procedureId": "PROC-2024-001",
+          "procedureName": "Annual Physical Examination",
+          "date": "2024-11-15",
+          "provider": "Dr. Emily Chen",
+          "facility": "456 Medical Plaza, San Francisco, CA",
+          "copay": 0,
+          "insuranceCoverage": "100%",
+          "status": "Completed"
+        },
+        {
+          "procedureId": "PROC-2024-002",
+          "procedureName": "Stress Test (Treadmill)",
+          "date": "2024-09-10",
+          "provider": "Dr. Robert Martinez",
+          "facility": "789 Heart Center, San Francisco, CA",
+          "copay": 50,
+          "insuranceCoverage": "80%",
+          "status": "Completed"
+        },
+        {
+          "procedureId": "PROC-2024-003",
+          "procedureName": "Skin Biopsy",
+          "date": "2024-10-20",
+          "provider": "Dr. Jennifer Kim",
+          "facility": "321 Skin Care Center, San Francisco, CA",
+          "copay": 50,
+          "insuranceCoverage": "80%",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "patientId": "PAT-002",
+      "personalInformation": {
+        "firstName": "Michael",
+        "lastName": "Rodriguez",
+        "dateOfBirth": "1978-11-22",
+        "age": 46,
+        "gender": "Male",
+        "ssn": "***-**-5678",
+        "phone": "+1-555-0234",
+        "email": "michael.rodriguez@email.com",
+        "address": {
+          "street": "789 Elm Avenue",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipCode": "90001",
+          "country": "USA"
+        },
+        "emergencyContact": {
+          "name": "Maria Rodriguez",
+          "relationship": "Spouse",
+          "phone": "+1-555-0235"
+        },
+        "bloodType": "A+",
+        "allergies": ["Aspirin", "Ibuprofen"],
+        "preferredLanguage": "English, Spanish"
+      },
+      "insurance": {
+        "insuranceId": "INS-002",
+        "insuranceProvider": "Aetna",
+        "planName": "Aetna Choice POS II",
+        "policyNumber": "AET-456789123",
+        "groupNumber": "GRP-123456",
+        "memberId": "MEM-987654321",
+        "policyHolder": {
+          "name": "Michael Rodriguez",
+          "relationship": "Self",
+          "dateOfBirth": "1978-11-22"
+        },
+        "coverage": {
+          "effectiveDate": "2024-01-01",
+          "expirationDate": "2024-12-31",
+          "deductible": {
+            "individual": 2000,
+            "family": 4000,
+            "remaining": 1200
+          },
+          "outOfPocketMaximum": {
+            "individual": 6000,
+            "family": "12000",
+            "remaining": 4500
+          },
+          "coinsurance": "25%",
+          "copay": {
+            "primaryCare": 30,
+            "specialist": 60,
+            "urgentCare": 100,
+            "emergencyRoom": 300,
+            "preventiveCare": 0
+          },
+          "coveredServices": [
+            "Preventive Care",
+            "Primary Care",
+            "Specialist Visits",
+            "Emergency Services",
+            "Hospitalization",
+            "Laboratory Tests",
+            "Radiology",
+            "Prescription Drugs",
+            "Mental Health",
+            "Physical Therapy",
+            "Chiropractic Care"
+          ],
+          "networkStatus": "In-Network"
+        }
+      },
+      "careProviders": [
+        {
+          "providerId": "DOC-004",
+          "name": "Dr. David Thompson",
+          "specialty": "Primary Care Physician",
+          "npi": "1234567893",
+          "phone": "+1-555-2001",
+          "email": "d.thompson@healthcare.com",
+          "address": {
+            "street": "123 Wellness Drive",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90002"
+          },
+          "isPrimary": true,
+          "startDate": "2019-03-10"
+        },
+        {
+          "providerId": "DOC-005",
+          "name": "Dr. Lisa Anderson",
+          "specialty": "Orthopedic Surgeon",
+          "npi": "1234567894",
+          "phone": "+1-555-2002",
+          "email": "l.anderson@healthcare.com",
+          "address": {
+            "street": "456 Bone & Joint Center",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90003"
+          },
+          "isPrimary": false,
+          "startDate": "2023-01-15"
+        }
+      ],
+      "medicalHistory": {
+        "chronicConditions": [
+          {
+            "condition": "Lower Back Pain",
+            "diagnosedDate": "2022-09-15",
+            "status": "Chronic",
+            "severity": "Moderate"
+          },
+          {
+            "condition": "Sleep Apnea",
+            "diagnosedDate": "2021-04-10",
+            "status": "Controlled with CPAP",
+            "severity": "Moderate"
+          }
+        ],
+        "surgeries": [
+          {
+            "procedure": "Knee Arthroscopy",
+            "date": "2023-05-20",
+            "surgeon": "Dr. Lisa Anderson",
+            "facility": "Los Angeles Medical Center",
+            "status": "Recovered"
+          },
+          {
+            "procedure": "Tonsillectomy",
+            "date": "1985-03-10",
+            "surgeon": "Dr. John Smith",
+            "facility": "City Hospital",
+            "status": "Recovered"
+          }
+        ],
+        "familyHistory": {
+          "diabetes": "Father",
+          "heartDisease": "Paternal grandfather",
+          "hypertension": "Mother",
+          "arthritis": "Maternal grandmother"
+        },
+        "socialHistory": {
+          "smoking": "Former smoker (quit 2015)",
+          "alcohol": "Moderate (3-4 drinks/week)",
+          "exercise": "Limited due to back pain",
+          "diet": "Regular"
+        },
+        "medications": [
+          {
+            "name": "Meloxicam",
+            "dosage": "15mg",
+            "frequency": "Once daily",
+            "prescribedBy": "Dr. Lisa Anderson",
+            "startDate": "2023-06-01",
+            "purpose": "Back pain and inflammation"
+          },
+          {
+            "name": "Gabapentin",
+            "dosage": "300mg",
+            "frequency": "Three times daily",
+            "prescribedBy": "Dr. Lisa Anderson",
+            "startDate": "2023-06-01",
+            "purpose": "Neuropathic pain"
+          },
+          {
+            "name": "CPAP Machine",
+            "dosage": "Auto-adjusting",
+            "frequency": "Nightly",
+            "prescribedBy": "Dr. David Thompson",
+            "startDate": "2021-05-01",
+            "purpose": "Sleep apnea"
+          }
+        ]
+      },
+      "appointments": {
+        "upcoming": [
+          {
+            "appointmentId": "APT-2024-007",
+            "date": "2024-12-18",
+            "time": "11:00 AM",
+            "provider": "Dr. Lisa Anderson",
+            "specialty": "Orthopedics",
+            "type": "Follow-up",
+            "location": "456 Bone & Joint Center, Los Angeles, CA",
+            "status": "Scheduled",
+            "estimatedCopay": 60
+          }
+        ],
+        "recent": [
+          {
+            "appointmentId": "APT-2024-008",
+            "date": "2024-11-20",
+            "time": "2:00 PM",
+            "provider": "Dr. David Thompson",
+            "specialty": "Primary Care",
+            "type": "Follow-up",
+            "location": "123 Wellness Drive, Los Angeles, CA",
+            "status": "Completed",
+            "copay": 30,
+            "diagnosis": "Lower back pain management",
+            "notes": "Patient reports improvement with current medication regimen"
+          },
+          {
+            "appointmentId": "APT-2024-009",
+            "date": "2024-10-15",
+            "time": "10:00 AM",
+            "provider": "Dr. Lisa Anderson",
+            "specialty": "Orthopedics",
+            "type": "Physical Therapy Evaluation",
+            "location": "456 Bone & Joint Center, Los Angeles, CA",
+            "status": "Completed",
+            "copay": 60,
+            "diagnosis": "Post-surgical knee rehabilitation",
+            "notes": "Knee healing well, continuing physical therapy"
+          }
+        ],
+        "past": [
+          {
+            "appointmentId": "APT-2024-010",
+            "date": "2024-09-05",
+            "time": "3:30 PM",
+            "provider": "Dr. David Thompson",
+            "specialty": "Primary Care",
+            "type": "Annual Physical",
+            "location": "123 Wellness Drive, Los Angeles, CA",
+            "status": "Completed",
+            "copay": 0,
+            "diagnosis": "Routine physical examination",
+            "notes": "Overall health good, continue current medications"
+          }
+        ]
+      },
+      "testResults": [
+        {
+          "testId": "TEST-2024-008",
+          "testType": "Radiology",
+          "testName": "MRI - Lumbar Spine",
+          "orderedBy": "Dr. Lisa Anderson",
+          "orderDate": "2024-11-20",
+          "testDate": "2024-11-22",
+          "resultsDate": "2024-11-23",
+          "status": "Completed",
+          "results": {
+            "findings": "Mild disc bulging at L4-L5, L5-S1. No significant spinal stenosis or nerve root compression.",
+            "impression": "Mild degenerative disc disease, consistent with chronic back pain",
+            "radiologist": "Dr. Mark Williams"
+          },
+          "copay": 100,
+          "facility": "Radiology Center - Los Angeles"
+        },
+        {
+          "testId": "TEST-2024-009",
+          "testType": "Laboratory",
+          "testName": "Complete Metabolic Panel",
+          "orderedBy": "Dr. David Thompson",
+          "orderDate": "2024-09-05",
+          "testDate": "2024-09-05",
+          "resultsDate": "2024-09-06",
+          "status": "Completed",
+          "results": {
+            "glucose": {
+              "value": 95,
+              "unit": "mg/dL",
+              "referenceRange": "70-100",
+              "status": "Normal"
+            },
+            "creatinine": {
+              "value": 1.0,
+              "unit": "mg/dL",
+              "referenceRange": "0.7-1.3",
+              "status": "Normal"
+            },
+            "sodium": {
+              "value": 140,
+              "unit": "mEq/L",
+              "referenceRange": "136-145",
+              "status": "Normal"
+            },
+            "potassium": {
+              "value": 4.2,
+              "unit": "mEq/L",
+              "referenceRange": "3.5-5.0",
+              "status": "Normal"
+            }
+          },
+          "copay": 0,
+          "facility": "Quest Diagnostics - Los Angeles"
+        },
+        {
+          "testId": "TEST-2024-010",
+          "testType": "Radiology",
+          "testName": "X-Ray - Knee",
+          "orderedBy": "Dr. Lisa Anderson",
+          "orderDate": "2024-10-15",
+          "testDate": "2024-10-15",
+          "resultsDate": "2024-10-16",
+          "status": "Completed",
+          "results": {
+            "findings": "Post-surgical changes from arthroscopy. No acute fracture or dislocation. Mild joint space narrowing.",
+            "impression": "Status post knee arthroscopy, healing well",
+            "radiologist": "Dr. Mark Williams"
+          },
+          "copay": 60,
+          "facility": "Radiology Center - Los Angeles"
+        },
+        {
+          "testId": "TEST-2024-011",
+          "testType": "Laboratory",
+          "testName": "Sleep Study (Polysomnography)",
+          "orderedBy": "Dr. David Thompson",
+          "orderDate": "2021-04-05",
+          "testDate": "2021-04-10",
+          "resultsDate": "2021-04-12",
+          "status": "Completed",
+          "results": {
+            "ahi": {
+              "value": 25,
+              "unit": "events/hour",
+              "referenceRange": "<5",
+              "status": "Moderate Sleep Apnea"
+            },
+            "findings": "Moderate obstructive sleep apnea, oxygen desaturation noted",
+            "recommendation": "CPAP therapy recommended"
+          },
+          "copay": 100,
+          "facility": "Sleep Center - Los Angeles"
+        }
+      ],
+      "procedures": [
+        {
+          "procedureId": "PROC-2024-004",
+          "procedureName": "Knee Arthroscopy",
+          "date": "2023-05-20",
+          "provider": "Dr. Lisa Anderson",
+          "facility": "Los Angeles Medical Center",
+          "copay": 300,
+          "insuranceCoverage": "75%",
+          "status": "Completed"
+        },
+        {
+          "procedureId": "PROC-2024-005",
+          "procedureName": "Physical Therapy Session",
+          "date": "2024-10-15",
+          "provider": "Physical Therapist - Jane Smith",
+          "facility": "456 Bone & Joint Center, Los Angeles, CA",
+          "copay": 30,
+          "insuranceCoverage": "80%",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "patientId": "PAT-003",
+      "personalInformation": {
+        "firstName": "Emma",
+        "lastName": "Williams",
+        "dateOfBirth": "1992-07-08",
+        "age": 32,
+        "gender": "Female",
+        "ssn": "***-**-9012",
+        "phone": "+1-555-0345",
+        "email": "emma.williams@email.com",
+        "address": {
+          "street": "456 Maple Street",
+          "city": "New York",
+          "state": "NY",
+          "zipCode": "10001",
+          "country": "USA"
+        },
+        "emergencyContact": {
+          "name": "James Williams",
+          "relationship": "Father",
+          "phone": "+1-555-0346"
+        },
+        "bloodType": "B+",
+        "allergies": ["Peanuts", "Dust Mites"],
+        "preferredLanguage": "English"
+      },
+      "insurance": {
+        "insuranceId": "INS-003",
+        "insuranceProvider": "UnitedHealthcare",
+        "planName": "UnitedHealthcare Select Plus",
+        "policyNumber": "UHC-789123456",
+        "groupNumber": "GRP-789012",
+        "memberId": "MEM-456789123",
+        "policyHolder": {
+          "name": "Emma Williams",
+          "relationship": "Self",
+          "dateOfBirth": "1992-07-08"
+        },
+        "coverage": {
+          "effectiveDate": "2024-01-01",
+          "expirationDate": "2024-12-31",
+          "deductible": {
+            "individual": 1000,
+            "family": 2000,
+            "remaining": 200
+          },
+          "outOfPocketMaximum": {
+            "individual": 4000,
+            "family": 8000,
+            "remaining": 1500
+          },
+          "coinsurance": "15%",
+          "copay": {
+            "primaryCare": 20,
+            "specialist": 40,
+            "urgentCare": 60,
+            "emergencyRoom": 200,
+            "preventiveCare": 0
+          },
+          "coveredServices": [
+            "Preventive Care",
+            "Primary Care",
+            "Specialist Visits",
+            "Emergency Services",
+            "Hospitalization",
+            "Laboratory Tests",
+            "Radiology",
+            "Prescription Drugs",
+            "Mental Health",
+            "Physical Therapy",
+            "Maternity Care"
+          ],
+          "networkStatus": "In-Network"
+        }
+      },
+      "careProviders": [
+        {
+          "providerId": "DOC-006",
+          "name": "Dr. Amanda Foster",
+          "specialty": "Primary Care Physician",
+          "npi": "1234567895",
+          "phone": "+1-555-3001",
+          "email": "a.foster@healthcare.com",
+          "address": {
+            "street": "789 Health Boulevard",
+            "city": "New York",
+            "state": "NY",
+            "zipCode": "10002"
+          },
+          "isPrimary": true,
+          "startDate": "2021-08-20"
+        },
+        {
+          "providerId": "DOC-007",
+          "name": "Dr. Sarah Mitchell",
+          "specialty": "Gynecologist",
+          "npi": "1234567896",
+          "phone": "+1-555-3002",
+          "email": "s.mitchell@healthcare.com",
+          "address": {
+            "street": "321 Women's Health Center",
+            "city": "New York",
+            "state": "NY",
+            "zipCode": "10003"
+          },
+          "isPrimary": false,
+          "startDate": "2022-01-10"
+        },
+        {
+          "providerId": "DOC-008",
+          "name": "Dr. Christopher Brown",
+          "specialty": "Allergist",
+          "npi": "1234567897",
+          "phone": "+1-555-3003",
+          "email": "c.brown@healthcare.com",
+          "address": {
+            "street": "654 Allergy & Asthma Center",
+            "city": "New York",
+            "state": "NY",
+            "zipCode": "10004"
+          },
+          "isPrimary": false,
+          "startDate": "2023-05-15"
+        }
+      ],
+      "medicalHistory": {
+        "chronicConditions": [
+          {
+            "condition": "Asthma",
+            "diagnosedDate": "2015-03-20",
+            "status": "Well Controlled",
+            "severity": "Mild to Moderate"
+          },
+          {
+            "condition": "Seasonal Allergies",
+            "diagnosedDate": "2010-05-10",
+            "status": "Active",
+            "severity": "Moderate"
+          }
+        ],
+        "surgeries": [
+          {
+            "procedure": "Wisdom Teeth Extraction",
+            "date": "2014-08-15",
+            "surgeon": "Dr. Robert Taylor",
+            "facility": "Dental Care Center",
+            "status": "Recovered"
+          }
+        ],
+        "familyHistory": {
+          "asthma": "Mother, maternal grandmother",
+          "allergies": "Both parents",
+          "diabetes": "Paternal grandfather",
+          "cancer": "Maternal aunt (ovarian cancer)"
+        },
+        "socialHistory": {
+          "smoking": "Never",
+          "alcohol": "Occasional (1-2 drinks/month)",
+          "exercise": "Regular (5 times/week)",
+          "diet": "Vegetarian"
+        },
+        "medications": [
+          {
+            "name": "Albuterol Inhaler",
+            "dosage": "90mcg",
+            "frequency": "As needed",
+            "prescribedBy": "Dr. Christopher Brown",
+            "startDate": "2015-04-01",
+            "purpose": "Asthma rescue medication"
+          },
+          {
+            "name": "Fluticasone Inhaler",
+            "dosage": "110mcg",
+            "frequency": "Twice daily",
+            "prescribedBy": "Dr. Christopher Brown",
+            "startDate": "2015-04-01",
+            "purpose": "Asthma maintenance"
+          },
+          {
+            "name": "Loratadine",
+            "dosage": "10mg",
+            "frequency": "Once daily",
+            "prescribedBy": "Dr. Christopher Brown",
+            "startDate": "2023-05-20",
+            "purpose": "Seasonal allergies"
+          },
+          {
+            "name": "Oral Contraceptive",
+            "dosage": "Combined pill",
+            "frequency": "Once daily",
+            "prescribedBy": "Dr. Sarah Mitchell",
+            "startDate": "2020-06-01",
+            "purpose": "Birth control"
+          }
+        ]
+      },
+      "appointments": {
+        "upcoming": [
+          {
+            "appointmentId": "APT-2024-011",
+            "date": "2024-12-22",
+            "time": "1:00 PM",
+            "provider": "Dr. Sarah Mitchell",
+            "specialty": "Gynecology",
+            "type": "Annual Exam",
+            "location": "321 Women's Health Center, New York, NY",
+            "status": "Scheduled",
+            "estimatedCopay": 0
+          }
+        ],
+        "recent": [
+          {
+            "appointmentId": "APT-2024-012",
+            "date": "2024-11-10",
+            "time": "10:00 AM",
+            "provider": "Dr. Christopher Brown",
+            "specialty": "Allergy & Immunology",
+            "type": "Follow-up",
+            "location": "654 Allergy & Asthma Center, New York, NY",
+            "status": "Completed",
+            "copay": 40,
+            "diagnosis": "Seasonal allergies, well controlled",
+            "notes": "Patient reports good control with current medication"
+          },
+          {
+            "appointmentId": "APT-2024-013",
+            "date": "2024-10-05",
+            "time": "2:30 PM",
+            "provider": "Dr. Amanda Foster",
+            "specialty": "Primary Care",
+            "type": "Annual Physical",
+            "location": "789 Health Boulevard, New York, NY",
+            "status": "Completed",
+            "copay": 0,
+            "diagnosis": "Routine physical, overall health excellent",
+            "notes": "All screenings normal, continue current medications"
+          }
+        ],
+        "past": [
+          {
+            "appointmentId": "APT-2024-014",
+            "date": "2024-08-20",
+            "time": "11:00 AM",
+            "provider": "Dr. Christopher Brown",
+            "specialty": "Allergy & Immunology",
+            "type": "Allergy Testing",
+            "location": "654 Allergy & Asthma Center, New York, NY",
+            "status": "Completed",
+            "copay": 40,
+            "diagnosis": "Confirmed allergies to dust mites and peanuts",
+            "notes": "Skin prick test positive for dust mites and peanuts"
+          }
+        ]
+      },
+      "testResults": [
+        {
+          "testId": "TEST-2024-012",
+          "testType": "Laboratory",
+          "testName": "Complete Blood Count (CBC)",
+          "orderedBy": "Dr. Amanda Foster",
+          "orderDate": "2024-10-05",
+          "testDate": "2024-10-05",
+          "resultsDate": "2024-10-06",
+          "status": "Completed",
+          "results": {
+            "whiteBloodCells": {
+              "value": 7.2,
+              "unit": "K/μL",
+              "referenceRange": "4.0-11.0",
+              "status": "Normal"
+            },
+            "redBloodCells": {
+              "value": 4.5,
+              "unit": "M/μL",
+              "referenceRange": "3.8-5.1",
+              "status": "Normal"
+            },
+            "hemoglobin": {
+              "value": 13.8,
+              "unit": "g/dL",
+              "referenceRange": "12.0-15.5",
+              "status": "Normal"
+            },
+            "hematocrit": {
+              "value": 41.5,
+              "unit": "%",
+              "referenceRange": "36.0-46.0",
+              "status": "Normal"
+            },
+            "platelets": {
+              "value": 280,
+              "unit": "K/μL",
+              "referenceRange": "150-450",
+              "status": "Normal"
+            }
+          },
+          "copay": 0,
+          "facility": "LabCorp - New York"
+        },
+        {
+          "testId": "TEST-2024-013",
+          "testType": "Laboratory",
+          "testName": "Pap Smear",
+          "orderedBy": "Dr. Sarah Mitchell",
+          "orderDate": "2023-12-15",
+          "testDate": "2023-12-15",
+          "resultsDate": "2023-12-20",
+          "status": "Completed",
+          "results": {
+            "findings": "Negative for intraepithelial lesion or malignancy",
+            "hpv": "Negative",
+            "interpretation": "Normal Pap smear"
+          },
+          "copay": 0,
+          "facility": "LabCorp - New York"
+        },
+        {
+          "testId": "TEST-2024-014",
+          "testType": "Laboratory",
+          "testName": "Allergy Panel (IgE)",
+          "orderedBy": "Dr. Christopher Brown",
+          "orderDate": "2024-08-20",
+          "testDate": "2024-08-20",
+          "resultsDate": "2024-08-22",
+          "status": "Completed",
+          "results": {
+            "dustMites": {
+              "value": 3.5,
+              "unit": "kU/L",
+              "referenceRange": "<0.35",
+              "status": "Positive",
+              "class": "Class 3 (Moderate)"
+            },
+            "peanuts": {
+              "value": 5.2,
+              "unit": "kU/L",
+              "referenceRange": "<0.35",
+              "status": "Positive",
+              "class": "Class 4 (High)"
+            },
+            "treePollen": {
+              "value": 0.2,
+              "unit": "kU/L",
+              "referenceRange": "<0.35",
+              "status": "Negative"
+            },
+            "grassPollen": {
+              "value": 0.3,
+              "unit": "kU/L",
+              "referenceRange": "<0.35",
+              "status": "Negative"
+            }
+          },
+          "copay": 40,
+          "facility": "LabCorp - New York"
+        },
+        {
+          "testId": "TEST-2024-015",
+          "testType": "Radiology",
+          "testName": "Chest X-Ray",
+          "orderedBy": "Dr. Amanda Foster",
+          "orderDate": "2024-10-05",
+          "testDate": "2024-10-05",
+          "resultsDate": "2024-10-06",
+          "status": "Completed",
+          "results": {
+            "findings": "Clear lungs bilaterally, no acute process",
+            "impression": "Normal chest X-ray",
+            "radiologist": "Dr. Michael Johnson"
+          },
+          "copay": 40,
+          "facility": "Radiology Center - New York"
+        },
+        {
+          "testId": "TEST-2024-016",
+          "testType": "Laboratory",
+          "testName": "Pulmonary Function Test (PFT)",
+          "orderedBy": "Dr. Christopher Brown",
+          "orderDate": "2024-11-10",
+          "testDate": "2024-11-10",
+          "resultsDate": "2024-11-10",
+          "status": "Completed",
+          "results": {
+            "fev1": {
+              "value": 3.2,
+              "unit": "L",
+              "referenceRange": "2.5-3.5",
+              "status": "Normal",
+              "percentPredicted": 95
+            },
+            "fvc": {
+              "value": 3.8,
+              "unit": "L",
+              "referenceRange": "3.0-4.0",
+              "status": "Normal",
+              "percentPredicted": 98
+            },
+            "fev1FvcRatio": {
+              "value": 84,
+              "unit": "%",
+              "referenceRange": ">70",
+              "status": "Normal"
+            },
+            "interpretation": "Normal pulmonary function, well-controlled asthma"
+          },
+          "copay": 40,
+          "facility": "654 Allergy & Asthma Center, New York, NY"
+        }
+      ],
+      "procedures": [
+        {
+          "procedureId": "PROC-2024-006",
+          "procedureName": "Annual Gynecological Exam",
+          "date": "2023-12-15",
+          "provider": "Dr. Sarah Mitchell",
+          "facility": "321 Women's Health Center, New York, NY",
+          "copay": 0,
+          "insuranceCoverage": "100%",
+          "status": "Completed"
+        },
+        {
+          "procedureId": "PROC-2024-007",
+          "procedureName": "Allergy Skin Testing",
+          "date": "2024-08-20",
+          "provider": "Dr. Christopher Brown",
+          "facility": "654 Allergy & Asthma Center, New York, NY",
+          "copay": 40,
+          "insuranceCoverage": "80%",
+          "status": "Completed"
+        }
+      ]
+    }
+  ]
+}
+
